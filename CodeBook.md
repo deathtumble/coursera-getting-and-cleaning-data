@@ -1,6 +1,6 @@
 # Code Book
 
-This is a code book that describes the variables, the data, and any transformations or work that ywas performed to clean up the data.
+This is a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data.
 
 ## The data source
 
@@ -35,7 +35,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ##  The Tidied Data
 
-The tidied data is written into ```mean.txt```.  It contains one rwo for every observed combination of test subject and test activity.  Beyond the key values above, each row contained the following features.
+This is the long form as mentioned in the rubric as either long or wide form is acceptable”
+
+The tidied data is written into ```mean.txt```.  It contains one row for every observed combination of test subject and test activity.  Beyond the key values above, each row contained the following features.
 
   * time_body_acc_mean_x
   * time_body_acc_mean_y

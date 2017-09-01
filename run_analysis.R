@@ -95,4 +95,4 @@ tidy = melt(combined, id.vars = id_vars, measure.vars = measure_vars)
 
 mean_tidy <- dcast(tidy, subject + activity ~ variable, mean)
 
-write.table(mean_tidy, file = "mean.txt")
+write.table(mean_tidy, file = "mean.txt", row.name = FALSE)
