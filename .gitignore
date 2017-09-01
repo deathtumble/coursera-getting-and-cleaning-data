@@ -1,0 +1,7 @@
+
+*.pper
+.Rproj.user
+UCI HAR Dataset
+*.Rproj
+
+accel\.zip
